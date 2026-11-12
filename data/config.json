@@ -38,18 +38,17 @@
   },
   "storage": {
     "engine": "gist",
+    "token": "${PUSH_TOKEN}",
     "items": {
       "gist-clash": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "clash.yaml",
-        "token": "${PUSH_TOKEN}"
+        "filename": "clash.yaml"
       },
       "gist-v2ray": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "v2ray.txt",
-        "token": "${PUSH_TOKEN}"
+        "filename": "v2ray.txt"
       }
     }
   }
