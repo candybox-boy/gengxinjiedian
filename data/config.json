@@ -2,32 +2,26 @@
   "domains": [
     {
       "name": "peasoft",
-      "sub": [
+      "subscribe": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
       ],
       "enable": true,
-      "usable": true,
-      "saved": true,
       "push_to": ["clash", "v2ray"]
     },
     {
       "name": "mahdibland",
-      "sub": [
+      "subscribe": [
         "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
       ],
       "enable": true,
-      "usable": true,
-      "saved": true,
       "push_to": ["clash", "v2ray"]
     },
     {
       "name": "pawdroid",
-      "sub": [
+      "subscribe": [
         "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
       ],
       "enable": true,
-      "usable": true,
-      "saved": true,
       "push_to": ["clash", "v2ray"]
     }
   ],
