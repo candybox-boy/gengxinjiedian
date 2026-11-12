@@ -1,17 +1,25 @@
 {
   "sites": [
     {
-      "name": "FastNodes-top",
+      "name": "dalazhi-accelerated",
       "subscribe": [
-        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/top.txt"
+        "https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85"
       ],
       "enable": true,
       "push_to": ["proxy"]
     },
     {
-      "name": "FastNodes-verified",
+      "name": "ripaojiedian",
       "subscribe": [
-        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/verified.txt"
+        "https://raw.kkgithub.com/ripaojiedian/freenode/main/sub"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
+    },
+    {
+      "name": "aiboboxx",
+      "subscribe": [
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
       ],
       "enable": true,
       "push_to": ["proxy"]
@@ -50,7 +58,7 @@
       }
     }
   },
-  "delay": 5000,
+  "delay": 2000,
   "crawl": {
     "enable": false
   }
