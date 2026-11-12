@@ -23,6 +23,7 @@
     }
   },
   "storage": {
+    "engine": "gist",
     "type": "gist",
     "items": {
       "clash": {
