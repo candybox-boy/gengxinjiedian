@@ -25,7 +25,6 @@ jobs:
       - name: Run process script
         timeout-minutes: 25
         env:
-          ENABLE_SPECIAL_PROTOCOLS: "true"
           PUSH_TOKEN: ${{ secrets.GIST_TOKEN }}
           SUBSCRIBE_CONF: data/config.json
         run: |
