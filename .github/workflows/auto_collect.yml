@@ -23,9 +23,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run collect script
-        timeout-minutes: 10
+        timeout-minutes: 15
         env:
           GIST_LINK: ${{ secrets.GIST_LINK }}
           GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
         run: |
-          python subscribe/collect.py -g "$GIST_LINK" -k "$GIST_TOKEN" -t clash v2ray -p 3 -c -n 128
+          python subscribe/collect.py -g "$GIST_LINK" -k "$GIST_TOKEN" -t clash v2ray -p 8 -n 128
