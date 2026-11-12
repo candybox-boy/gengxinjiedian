@@ -1,12 +1,12 @@
 {
   "domains": [],
+  "subscribes": [
+    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
+    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+  ],
   "crawl": {
     "enable": true,
-    "pages": [
-      "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
-      "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-      "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
-    ],
     "telegram": {
       "enable": true,
       "users": {
