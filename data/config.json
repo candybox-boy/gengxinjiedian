@@ -6,7 +6,7 @@
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
       ],
       "enable": true,
-      "push_to": ["clash", "v2ray"]
+      "push_to": ["proxy"]
     },
     {
       "name": "mahdibland",
@@ -14,7 +14,7 @@
         "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
       ],
       "enable": true,
-      "push_to": ["clash", "v2ray"]
+      "push_to": ["proxy"]
     },
     {
       "name": "pawdroid",
@@ -22,33 +22,35 @@
         "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
       ],
       "enable": true,
-      "push_to": ["clash", "v2ray"]
+      "push_to": ["proxy"]
     }
   ],
   "crawl": {
     "enable": false
   },
   "groups": {
-    "clash": {
-      "targets": { "clash": "gist-clash" }
-    },
-    "v2ray": {
-      "targets": { "v2ray": "gist-v2ray" }
+    "proxy": {
+      "targets": {
+        "clash": "proxy-clash",
+        "v2ray": "proxy-v2ray"
+      }
     }
   },
   "storage": {
     "engine": "gist",
     "token": "${PUSH_TOKEN}",
     "items": {
-      "gist-clash": {
+      "proxy-clash": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "clash.yaml"
+        "filename": "clash.yaml",
+        "enable": true
       },
-      "gist-v2ray": {
+      "proxy-v2ray": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "v2ray.txt"
+        "filename": "v2ray.txt",
+        "enable": true
       }
     }
   }
