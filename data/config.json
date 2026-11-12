@@ -2,38 +2,43 @@
   "domains": [
     {
       "name": "peasoft",
-      "sub": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
+      "sub": [
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+      ],
       "enable": true,
       "push_to": ["clash", "v2ray"]
     },
     {
       "name": "mahdibland",
-      "sub": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+      "sub": [
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
+      ],
       "enable": true,
       "push_to": ["clash", "v2ray"]
     },
     {
       "name": "pawdroid",
-      "sub": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+      "sub": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+      ],
       "enable": true,
       "push_to": ["clash", "v2ray"]
     }
   ],
   "crawl": {
-    "enable": true,
-    "singlelink": {
-      "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml": ["clash", "v2ray"],
-      "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt": ["clash", "v2ray"],
-      "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub": ["clash", "v2ray"]
-    }
+    "enable": false
   },
   "groups": {
     "clash": {
-      "targets": ["clash"],
+      "targets": {
+        "clash": "clash"
+      },
       "regular": true
     },
     "v2ray": {
-      "targets": ["v2ray"],
+      "targets": {
+        "v2ray": "v2ray"
+      },
       "regular": false
     }
   },
