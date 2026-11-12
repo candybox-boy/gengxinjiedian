@@ -22,10 +22,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run collect script
-        timeout-minutes: 15
+      - name: Run process script
+        timeout-minutes: 10
         env:
-          GIST_LINK: ${{ secrets.GIST_LINK }}
-          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_PAT: ${{ secrets.GIST_TOKEN }}
         run: |
-          python subscribe/collect.py -g "$GIST_LINK" -k "$GIST_TOKEN" -t clash v2ray -p 8 -n 128
+          python subscribe/process.py -f config.json -n 128
