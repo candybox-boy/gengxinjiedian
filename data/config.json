@@ -1,37 +1,87 @@
+{
   "sites": [
     {
       "name": "FastNodes-top",
-      "subscribe": ["https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/top.txt"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/top.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "FastNodes-verified",
-      "subscribe": ["https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/verified.txt"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/verified.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "SoliSpirit-VLESS",
-      "subscribe": ["https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "SoliSpirit-Trojan",
-      "subscribe": ["https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/trojan.txt"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/trojan.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "aiboboxx",
-      "subscribe": ["https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "dalazhi-accelerated",
-      "subscribe": ["https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     },
     {
       "name": "ermaozi-reachable",
-      "subscribe": ["https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/reachable/v2ray.txt"],
-      "enable": true, "push_to": ["proxy"]
+      "subscribe": [
+        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/reachable/v2ray.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
     }
   ],
+  "groups": {
+    "proxy": {
+      "targets": {
+        "clash": "clash",
+        "v2ray": "v2ray"
+      }
+    }
+  },
+  "storage": {
+    "engine": "gist",
+    "items": {
+      "clash": {
+        "username": "candybox-boy",
+        "gist_id": "a5870994c635800d78b8149be17cd275",
+        "filename": "clash.yaml"
+      },
+      "v2ray": {
+        "username": "candybox-boy",
+        "gist_id": "a5870994c635800d78b8149be17cd275",
+        "filename": "v2ray.txt"
+      }
+    }
+  },
+  "delay": 2000,
+  "crawl": {
+    "enable": false
+  }
+}
