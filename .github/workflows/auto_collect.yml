@@ -28,4 +28,4 @@ jobs:
           PUSH_TOKEN: ${{ secrets.GIST_TOKEN }}
           SUBSCRIBE_CONF: data/config.json
         run: |
-          python subscribe/process.py -n 128
+          python subscribe/process.py -n 64 --retry 2
