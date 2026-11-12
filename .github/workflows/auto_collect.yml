@@ -26,6 +26,7 @@ jobs:
         timeout-minutes: 10
         env:
           GIST_PAT: ${{ secrets.GIST_TOKEN }}
+          PUSH_TOKEN: ${{ secrets.GIST_TOKEN }}
           SUBSCRIBE_CONF: data/config.json
         run: |
           python subscribe/process.py -n 128
