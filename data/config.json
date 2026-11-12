@@ -2,7 +2,7 @@
   "domains": [
     {
       "name": "peasoft",
-      "subscribe": [
+      "sub": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
       ],
       "enable": true,
@@ -10,7 +10,7 @@
     },
     {
       "name": "mahdibland",
-      "subscribe": [
+      "sub": [
         "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
       ],
       "enable": true,
@@ -18,7 +18,7 @@
     },
     {
       "name": "pawdroid",
-      "subscribe": [
+      "sub": [
         "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
       ],
       "enable": true,
@@ -30,15 +30,11 @@
   },
   "groups": {
     "clash": {
-      "targets": {
-        "clash": "clash"
-      },
+      "targets": { "clash": "clash" },
       "regular": true
     },
     "v2ray": {
-      "targets": {
-        "v2ray": "v2ray"
-      },
+      "targets": { "v2ray": "v2ray" },
       "regular": false
     }
   },
