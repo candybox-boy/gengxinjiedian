@@ -23,6 +23,12 @@
       "subscribe": ["https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/trojan.txt"],
       "enable": true,
       "push_to": ["proxy"]
+    },
+    {
+      "name": "0xRadikal-All",
+      "subscribe": ["https://raw.githubusercontent.com/0xRadikal/Free-v2ray-Configs/main/All_Configs_Sub.txt"],
+      "enable": true,
+      "push_to": ["proxy"]
     }
   ],
   "groups": {
