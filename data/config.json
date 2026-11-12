@@ -1,46 +1,54 @@
 {
-  "domains": [
+  "sites": [
     {
       "name": "peasoft",
-      "sub": ["https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"],
+      "subscribe": [
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml"
+      ],
       "enable": true,
       "push_to": ["proxy"]
     },
     {
       "name": "mahdibland",
-      "sub": ["https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"],
+      "subscribe": [
+        "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt"
+      ],
       "enable": true,
       "push_to": ["proxy"]
     },
     {
       "name": "pawdroid",
-      "sub": ["https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"],
+      "subscribe": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+      ],
       "enable": true,
       "push_to": ["proxy"]
     }
   ],
-  "crawl": { "enable": false },
   "groups": {
     "proxy": {
       "targets": {
-        "clash": "proxy-clash",
-        "v2ray": "proxy-v2ray"
+        "clash": "clash",
+        "v2ray": "v2ray"
       }
     }
   },
   "storage": {
     "engine": "gist",
     "items": {
-      "proxy-clash": {
+      "clash": {
+        "username": "candybox-boy",
         "gist_id": "a5870994c635800d78b8149be17cd275",
-        "filename": "clash.yaml",
-        "username": "candybox-boy"
+        "filename": "clash.yaml"
       },
-      "proxy-v2ray": {
+      "v2ray": {
+        "username": "candybox-boy",
         "gist_id": "a5870994c635800d78b8149be17cd275",
-        "filename": "v2ray.txt",
-        "username": "candybox-boy"
+        "filename": "v2ray.txt"
       }
     }
+  },
+  "crawl": {
+    "enable": false
   }
 }
