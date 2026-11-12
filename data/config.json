@@ -23,7 +23,7 @@
     }
   },
   "storage": {
-    "engine": "gist",
+    "type": "gist",
     "items": {
       "clash": {
         "username": "candybox-boy",
