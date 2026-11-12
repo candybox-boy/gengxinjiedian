@@ -1,17 +1,33 @@
 {
   "sites": [
     {
-      "name": "dalazhi-accelerated",
+      "name": "FastNodes-top",
       "subscribe": [
-        "https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85"
+        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/top.txt"
       ],
       "enable": true,
       "push_to": ["proxy"]
     },
     {
-      "name": "ripaojiedian",
+      "name": "FastNodes-verified",
       "subscribe": [
-        "https://raw.kkgithub.com/ripaojiedian/freenode/main/sub"
+        "https://raw.githubusercontent.com/rtwo2/FastNodes/main/sub/verified.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
+    },
+    {
+      "name": "SoliSpirit-VLESS",
+      "subscribe": [
+        "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt"
+      ],
+      "enable": true,
+      "push_to": ["proxy"]
+    },
+    {
+      "name": "dalazhi-accelerated",
+      "subscribe": [
+        "https://ghproxy.com/https://raw.githubusercontent.com/dalazhi/v2ray/main/v2ray%E8%AE%A2%E9%98%85"
       ],
       "enable": true,
       "push_to": ["proxy"]
