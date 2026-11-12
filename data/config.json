@@ -31,25 +31,24 @@
   "groups": {
     "proxy": {
       "targets": {
-        "clash": "proxy-clash",
-        "v2ray": "proxy-v2ray"
+        "clash": "clash",
+        "v2ray": "v2ray"
       }
     }
   },
   "storage": {
     "engine": "gist",
+    "token": "${PUSH_TOKEN}",
     "items": {
-      "proxy-clash": {
-        "token": "${PUSH_TOKEN}",
-        "username": "candybox-boy",
+      "clash": {
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "clash.yaml"
+        "filename": "clash.yaml",
+        "username": "candybox-boy"
       },
-      "proxy-v2ray": {
-        "token": "${PUSH_TOKEN}",
-        "username": "candybox-boy",
+      "v2ray": {
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "v2ray.txt"
+        "filename": "v2ray.txt",
+        "username": "candybox-boy"
       }
     }
   }
