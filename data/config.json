@@ -15,30 +15,6 @@
       ],
       "enable": true,
       "push_to": ["proxy"]
-    },
-    {
-      "name": "aiboboxx",
-      "subscribe": [
-        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
-      ],
-      "enable": true,
-      "push_to": ["proxy"]
-    },
-    {
-      "name": "SoliSpirit-VLESS",
-      "subscribe": [
-        "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/vless.txt"
-      ],
-      "enable": true,
-      "push_to": ["proxy"]
-    },
-    {
-      "name": "SoliSpirit-Trojan",
-      "subscribe": [
-        "https://raw.githubusercontent.com/SoliSpirit/v2ray-configs/refs/heads/main/Protocols/trojan.txt"
-      ],
-      "enable": true,
-      "push_to": ["proxy"]
     }
   ],
   "groups": {
