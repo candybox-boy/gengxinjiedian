@@ -26,21 +26,7 @@
     }
   ],
   "crawl": {
-    "enable": true,
-    "singlelink": {
-      "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml": ["clash", "v2ray"],
-      "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt": ["clash", "v2ray"],
-      "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub": ["clash", "v2ray"]
-    },
-    "telegram": {
-      "enable": false
-    },
-    "github": {
-      "enable": false
-    },
-    "google": {
-      "enable": false
-    }
+    "enable": false
   },
   "groups": {
     "clash": {
