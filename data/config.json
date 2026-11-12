@@ -41,11 +41,15 @@
     "token": "${PUSH_TOKEN}",
     "items": {
       "proxy-clash": {
+        "engine": "gist",
+        "token": "${PUSH_TOKEN}",
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
         "filename": "clash.yaml"
       },
       "proxy-v2ray": {
+        "engine": "gist",
+        "token": "${PUSH_TOKEN}",
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
         "filename": "v2ray.txt"
