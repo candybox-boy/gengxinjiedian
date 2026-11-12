@@ -43,13 +43,13 @@
         "username": "candybox-boy",
         "gist_id": "a5870994c635800d78b8149be17cd275",
         "filename": "clash.yaml",
-        "token": "${GIST_TOKEN}"
+        "token": "${PUSH_TOKEN}"
       },
       "v2ray": {
         "username": "candybox-boy",
         "gist_id": "a5870994c635800d78b8149be17cd275",
         "filename": "v2ray.txt",
-        "token": "${GIST_TOKEN}"
+        "token": "${PUSH_TOKEN}"
       }
     }
   }
