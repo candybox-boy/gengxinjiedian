@@ -1,29 +1,27 @@
 {
   "domains": [],
   "subscribes": [
-    "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
-    "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-    "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+    {
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
+      "tag": "peasoft",
+      "enabled": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+      "tag": "mahdibland",
+      "enabled": true
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+      "tag": "Pawdroid",
+      "enabled": true
+    }
   ],
   "crawl": {
-    "enable": true,
-    "telegram": {
-      "enable": true,
-      "users": {
-        "sharecentre": 2,
-        "free_proxy_001": 2,
-        "v2rayfree": 2
-      }
-    },
-    "google": {
-      "enable": false
-    },
-    "github": {
-      "enable": false
-    }
+    "enable": false
   },
   "storage": {
-    "engine": "gist",
+    "type": "gist",
     "items": {
       "clash": {
         "username": "candybox-boy",
