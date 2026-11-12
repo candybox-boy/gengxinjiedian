@@ -23,7 +23,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run process script
-        timeout-minutes: 20
+        timeout-minutes: 25
         env:
           PUSH_TOKEN: ${{ secrets.GIST_TOKEN }}
           SUBSCRIBE_CONF: data/config.json
