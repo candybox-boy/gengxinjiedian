@@ -27,4 +27,4 @@ jobs:
         env:
           GIST_PAT: ${{ secrets.GIST_TOKEN }}
         run: |
-          python subscribe/process.py -f config.json -n 128
+          python subscribe/process.py -n 128
