@@ -43,14 +43,12 @@
       "proxy-clash": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "clash.yaml",
-        "enable": true
+        "filename": "clash.yaml"
       },
       "proxy-v2ray": {
         "username": "candybox-boy",
         "gistid": "a5870994c635800d78b8149be17cd275",
-        "filename": "v2ray.txt",
-        "enable": true
+        "filename": "v2ray.txt"
       }
     }
   }
