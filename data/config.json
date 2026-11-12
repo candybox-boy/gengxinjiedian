@@ -1,33 +1,24 @@
 {
   "domains": [],
-  "crawl": {
-    "enable": true,
-    "pages": [
-      {
-        "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
-        "tag": "peasoft",
-        "enabled": true
-      },
-      {
-        "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
-        "tag": "mahdibland",
-        "enabled": true
-      },
-      {
-        "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
-        "tag": "Pawdroid",
-        "enabled": true
-      }
-    ],
-    "telegram": {
-      "enable": false
+  "subscribes": [
+    {
+      "url": "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.yml",
+      "tag": "peasoft",
+      "enabled": true
     },
-    "google": {
-      "enable": false
+    {
+      "url": "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
+      "tag": "mahdibland",
+      "enabled": true
     },
-    "github": {
-      "enable": false
+    {
+      "url": "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub",
+      "tag": "Pawdroid",
+      "enabled": true
     }
+  ],
+  "crawl": {
+    "enable": false
   },
   "storage": {
     "engine": "gist",
